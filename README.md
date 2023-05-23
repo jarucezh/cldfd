@@ -1,4 +1,4 @@
-# CLD-FD
+# Cross-Level Distillation and Feature Denoising for Cross-Domain Few-Shot Classification
 Code implementation of ICLR 2023 paper entitled "[Cross-Level Distillation and Feature Denoising for Cross-Domain Few-Shot Classification](https://openreview.net/forum?id=kCeP36h9c2T&referrer=%5Bthe%20profile%20of%20Hao%20ZHENG%5D(%2Fprofile%3Fid%3D~Hao_ZHENG4))"
 
 ## Updates on 2023-05-23
@@ -15,4 +15,4 @@ BTW, if you want to Train the SimCLR baseline, just modify the line 260 in ```me
 
 ## TODO on 2023-05-23
 
-*Releasing the code of testing stage*, including Feature Denoising (FD). We are really sorry that we are still sorting. If you are in a hurry, you can also contact me in advance by sending emails to [me](zheng.h.ad@m.titech.ac.jp). You are always welcome to contact me!!!
+**Releasing the code of testing stage**, including Feature Denoising (FD). We are really sorry that we are still sorting. If you are in a hurry, you can also contact me in advance by sending emails to [me](zheng.h.ad@m.titech.ac.jp). You are always welcome to contact us!!!
