@@ -15,4 +15,4 @@ BTW, if you want to Train the SimCLR baseline, just modify the line 260 in ```me
 
 ## TODO on 2023-05-23
 
-Releasing the code of testing stage, including Feature Denoising (FD). We are really sorry that we are still sorting. If you are in a hurry, you can also contact me in advance by sending emails to [me](zheng.h.ad@m.titech.ac.jp). You are always welcome to contact me!!!
+*Releasing the code of testing stage*, including Feature Denoising (FD). We are really sorry that we are still sorting. If you are in a hurry, you can also contact me in advance by sending emails to [me](zheng.h.ad@m.titech.ac.jp). You are always welcome to contact me!!!
