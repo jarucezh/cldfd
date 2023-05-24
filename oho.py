@@ -4,10 +4,11 @@ import torch
 import argparse
 import torch.nn as nn
 from tqdm import tqdm
+from loss import ntxent
 from utils import save_load
 from torch.optim import Adam, SGD
 from methods import student9 as student
-from loss import dis, ntxent, simsiam, PKT, Attention, Fitnets
+
 
 
 def main(args):
