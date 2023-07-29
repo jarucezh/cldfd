@@ -256,7 +256,7 @@ class Student(nn.Module):
                 f1_tea_map, _ = self.teacher(x1, ret_layers=[5, 6, 7])
                 f2_tea_map, _ = self.teacher(x2, ret_layers=[5, 6, 7])
 
-                loss_kd = self.kd_group_loss(f1_stu_map, f1_tea_map, x3, epoch=epoch, kd_criterion = kd_criterion) + self.kd_group_loss(f2_stu_map, f2_tea_map, x3, epoch=epoch, kd_criterion = kd_criterion)
+                loss_kd = self.kd_group_loss(f1_stu_map, f1_tea_map, x3, epoch=epoch, kd_criterion = kd_criterion)
                 loss = loss_sim + self.alpha * loss_kd
 
                 total_loss += loss.item()
