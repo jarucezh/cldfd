@@ -24,7 +24,8 @@ class Student(nn.Module):
 
         super(Student, self).__init__()
         self.alpha = alpha
-        self.ss_loss = ss_loss
+        # self.ss_loss = ss_loss
+        self.feature_dim = 512
 
         utils.fixseed(args.seed)
         if args is None:
