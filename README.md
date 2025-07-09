@@ -16,7 +16,7 @@ BTW, if you want to Train the SimCLR baseline, just modify the line 260 in ```me
 
 ## TODO on 2023-05-23
 
-**Releasing the code of testing stage**, including Feature Denoising (FD). We are really sorry that we are still sorting. If you are in a hurry, you can also contact me in advance by sending emails to [me](zheng.h.ad@m.titech.ac.jp). You are always welcome to contact us!!!  
+**Releasing the code of testing stage**, including Feature Denoising (FD). We are really sorry that we are still sorting. If you are in a hurry, you can also contact me in advance by sending emails to [me](hao.zheng@riken.jp). You are always welcome to contact us!!!  
 
 ********
 
@@ -32,4 +32,4 @@ python oho.py --dir tmp/dir_you_want --target_dataset EuroSAT --target_subset_sp
 如果你想训练SimCLR baseline的话，只需要修改```methods/student9.py```中第260行，把蒸馏loss去掉就可以了。后续我们也会开放正式的代码！！！
 
 ## 2023年5月23日TODO
-**开放测试阶段的代码**，包括Feature Denoising (FD). 我很抱歉我们还在整理！如果你着急的话，也可以给[我](zheng.h.ad@m.titech.ac.jp)发邮件。随时欢迎交流沟通！！！
+**开放测试阶段的代码**，包括Feature Denoising (FD). 我很抱歉我们还在整理！如果你着急的话，也可以给[我](hao.zheng@riken.jp)发邮件。随时欢迎交流沟通！！！
